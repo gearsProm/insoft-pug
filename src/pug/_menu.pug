@@ -1,0 +1,40 @@
+include ../pug/libs/_libs
+.header
+  .header__container.container
+    .header__logo
+      +image_png('logo')
+		
+    .header__burger
+      .header__burger1
+       span
+    nav.header__menu.menu
+      .menu__body
+        ul.menu__list
+          li.menu__item
+            a.menu__link.curent(href='about.html') about us
+          li.menu__item
+            a.menu__link(href='invest.html') our projects
+            .red-dot
+              .red-dt__item
+          li.menu__item
+            a.menu__link(href='#') our unique approach
+          li.menu__item
+            a.menu__link(href='#') resources
+  .menu-mobile
+    .menu-mobile__body
+      ul.menu__list--mob
+        li.menu__item--mob
+          a.menu__link--mob(href='#') about us
+        li.menu__item--mob
+          a.menu__link--mob(href='#') our projects
+          .red-dot
+            .red-dt__item--mob
+        li.menu__item--mob
+          a.menu__link--mob(href='#') our unique approach
+        li.menu__item--mob
+          a.menu__link--mob(href='#') resources
+      .footer__social-mob
+        a.footer__social--m(href='#')
+          img(src='images/f_w.png', alt='')
+        a.footer__social--m(href='#')
+          img(src='images/in_w.png', alt='')

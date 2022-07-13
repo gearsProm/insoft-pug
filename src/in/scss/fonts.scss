@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'AvenirNextCyr';
+	src: 
+		 url("../fonts/AvenirNextCyr-Regular.woff2"),
+	     url("../fonts/AvenirNextCyr-Regular.woff"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+@font-face {
+	font-family: 'AvenirNextCyr';
+	src: url('../fonts/avenirnextcyr-bold.eot'), /* IE 9 Compatibility Mode */
+	 url('../fonts/avenirnextcyr-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/avenirnextcyr-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/avenirnextcyr-bold.svg#avenirnextcyr-bold') format('svg'), /* Chrome < 4, Legacy iOS */
+		  url("../fonts/avenirnextcyr-bold.woff2"),
+		  url("../fonts/avenirnextcyr-bold.woff"); 
+	font-style: normal; 
+	font-weight: bold; 
+}

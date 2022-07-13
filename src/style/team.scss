@@ -1,0 +1,114 @@
+.team {
+	
+}
+.team-header{
+	background: #282E34;
+}
+.container2 {
+	max-width: 1250px;
+	margin: 0px auto;
+	padding: 0 29px;
+}
+.team-block {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	padding: 105px 0;
+}
+.team-block__content-team{
+	padding: 0 150px 0 0;
+}
+.content-team__logo {
+	padding-bottom: 32px;
+}
+.content-team__text{
+	font-size: 20px;
+line-height: 28px;
+color: #8E9AA5;
+}
+.content-team__button{
+	display: flex;
+	flex-wrap: wrap;
+}
+.question-block__button-block{}
+.grey-block{
+	color: #8E9AA5;
+}
+.question-block__button-text--grey {
+	display: inline-block;
+    line-height: 24px;
+    margin-right: 15px;
+    border-bottom: 4px solid #8E9AA5;
+}
+.question-block__button-bootom--grey{
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	background: #8E9AA5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.team-block__logo-team{
+	width: 90%;
+}
+.team-block__logo-team img{
+	width: 90%;
+}
+.team-block__button-bg {
+	position: absolute;
+	height: 100%;
+	display: flex;
+	align-items:flex-end;
+	background-image: url('../images/Mask.png');
+	background-repeat: no-repeat;
+	background-position: -40px 100%;
+	z-index: 60;
+	overflow: visible;
+}
+.quoters-button__team {
+	display: flex;
+	position: relative;
+	
+}
+
+.quoters-button__choose-team {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	
+}
+.button-bg__text{
+	font-size: 20px;
+line-height: 28px;
+width: 310px;
+padding-bottom: 59px;
+}
+@media (max-width: 1050px) {
+	.team-block__content-team{
+		padding: 0 50px 0 0;
+	}
+}
+@media (max-width: 960px) {
+	.quoters-button__team {
+		display: block;
+	}
+	.quoters-button__choose-team {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.team-block__button-bg {
+		position: relative;
+		height: 200px;
+	}
+}
+@media (max-width: 760px){
+.team-block {
+	display: block;
+
+	
+	padding: 105px 0;
+}
+}

@@ -1,0 +1,148 @@
+.footer {
+	background: #282E34;
+	color: #ffffff;
+
+	&__container {
+}
+	&__top {
+		padding: 100px 100px 100px 0;
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		border-bottom: 2px solid  #3D4248;
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: 450;
+		@media (max-width: 1362px) {
+			& {
+				padding: 81px 40px 81px 0;
+			}
+		}
+		@media (max-width: 961px) {
+			& {
+				padding: 81px 10px 81px 0;	
+				
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+		@media (max-width: 769px) {
+			& {
+				padding: 38px 0px;
+			}
+		}
+		@media (max-width: 414px) {
+			& {
+				padding: 38px 0px;
+				display: block;
+			}
+		}
+	}
+
+	&__top-logo {
+		
+	}
+	&__logo-logo {
+		padding-bottom: 20px;
+	}
+	&__logo-text {
+		font-weight: 450;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8E9AA5;
+	}
+	&__top-text {
+		padding: 0 0 0 10px;
+		@media (max-width: 414px) {
+			& {
+				padding: 28px 0 0 0px;
+			}
+		}
+
+	}
+	&__menu {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		border-bottom: 2px solid  #3D4248;
+		padding-bottom: 60px;
+		@media (max-width: 600px) {
+			& {
+				display: block;
+				
+			}
+		}
+	}
+}
+.menu-bootom {
+}
+.menu-bootom-footer {
+	margin-top: 60px;
+	@media (max-width: 600px) {
+		& {
+			margin-top: 30px;
+		}
+	}
+}
+.menu-bootom__item {
+padding-bottom: 24px;
+
+}
+.menu-bootom__link {
+font-size: 20px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.menu-bootom__item p {
+	font-weight: 750;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #8E9AA5;
+}
+.footer__social {
+	display: flex;
+	align-content: center;
+justify-items: end;
+min-height: 106px;
+align-items: center;
+justify-content:space-between;
+	@media (max-width: 434px) {
+		& {
+			display: block;
+		}
+	}
+	
+}
+.footer__social--f {
+	display: inline-block;
+	padding-right: 40px;
+}
+.footer__social--in {
+	display: inline-block;
+	padding-right: 40px;
+}
+.footer__social--web {
+	display: inline-block;
+	font-weight: 450;
+	font-size: 20px;
+	color: #8E9AA5;
+	@media (max-width: 434px) {
+		& {
+			padding: 0 0 34px 0;;
+		}
+	}
+	
+}
+.footer__social-bootom {
+		@media (max-width: 434px) {
+			& {
+				padding: 34px 0 41px 0;;
+			}
+		}
+	}
+	@media (max-width: 961px) {
+		.menu-bootom__link {
+			font-size: 16px;
+		line-height: 24px;		
+	}
+}

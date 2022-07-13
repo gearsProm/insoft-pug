@@ -1,0 +1,9 @@
+mixin image_png(name)
+	img.src(src=require(`../src/images/${name}.png`) alt=name)
+	
+mixin image_jpg(name)
+	img.src(src=require(`../src/images/${name}.jpg`) alt=name)
+
+mixin image_svg(name)
+	img.src(src=require(`../src/images/${name}.svg`) alt=name)
+

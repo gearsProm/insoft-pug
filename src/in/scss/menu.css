@@ -1,0 +1,151 @@
+.container {
+  max-width: 1458px;
+  margin: 0px auto;
+  padding: 0 29px;
+}
+
+@media (max-width: 769px) {
+  .container {
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 321px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.header {
+  width: 100%;
+  background: #FFFFFF;
+  border-bottom: 1px solid #EFE6E5;
+  border-top: 1px solid #EFE6E5;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 72px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 961px) {
+  .header__menu {
+    display: none;
+  }
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__list li {
+  padding: 0 40px;
+}
+
+.menu__item:last-child {
+  padding-right: 0px;
+}
+
+.menu__link {
+  display: block;
+  font-weight: 750;
+  font-size: 12px;
+  line-height: 64px;
+  color: #8E9AA5;
+}
+
+.curent {
+  color: #FF5252;
+  border-bottom: 8px solid #FF5252;
+}
+
+.red-dt__item {
+  color: #FF5252;
+}
+
+.menu-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 961px) {
+  .menu-mobile {
+    display: none;
+  }
+}
+
+.menu-mobile__body {
+  background-color: #282E34;
+}
+
+.menu__list--mob {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 197px 0 114px 0;
+}
+
+.menu__item--mob {
+  margin: 12px 0;
+}
+
+.menu__link--mob {
+  color: #FFFFFF;
+  font-weight: 750;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.footer__social-mob {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 80px;
+}
+
+.footer__social--m {
+  padding: 0 20px;
+}
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'AvenirNextCyr';
+  src: url("../fonts/AvenirNextCyr-Regular.woff2"), url("../fonts/AvenirNextCyr-Regular.woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'AvenirNextCyr';
+  src: url("../fonts/avenirnextcyr-bold.woff2"), url("../fonts/avenirnextcyr-bold.woff");
+  font-style: normal;
+  font-weight: bold;
+}
+/*# sourceMappingURL=fonts.css.map */
