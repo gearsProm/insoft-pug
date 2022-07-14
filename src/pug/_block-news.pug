@@ -2,7 +2,13 @@
       .container
         .page-news__title
           | Recent news from InSoft Partners
-          p Updates on our ongoing projects and fresh indusry insights
+          .page-news__text--p 
+             | Updates on our ongoing projects and fresh indusry insights
+             a.button-block__link(href='') 
+              .button-block.blue
+                .button-block__text--b all articles
+                .button-block__bootom--b
+                 +image_png('arrowb')
         .page-news__news
           .page-news__news-item
             .news-item__foto
@@ -15,6 +21,7 @@
             .news-item__text
               | Code for America believes giving their clients an easy way to get support &ndash; especially during a pandemic &ndash; is key to the services they provide.
             .block-project__button
+             a.button-block__link(href='') 
               .button-block.blue
                 .button-block__text--b All posts
                 .button-block__bootom--b
@@ -30,6 +37,7 @@
             .news-item__text
               | Companies have to operate with more focus and greater efficiency than ever before. Luke Diaz shares how the data provider is using automation to do what can seem impossible today &ndash; drive business growth.
             .block-project__button
+             a.button-block__link(href='') 
               .button-block.blue
                 .button-block__text--b read
                 .button-block__bootom--b
@@ -44,6 +52,7 @@
             .news-item__text
               | An emphasis on storytelling glosses over the quality that&rsquo;s even more crucial for a brand&rsquo;s content marketing to find success: personality.
             .block-project__button
+             a.button-block__link(href='') 
               .button-block.blue
                 .button-block__text--b read
                 .button-block__bootom--b
@@ -57,10 +66,12 @@
               .page-news__support-title Flow&rsquo;s Daniel Scrivner on the brave new world of asynchronous productivity tools
               .page-news__support-text
                 | Long-term trends around distributed working have been dramatically accelerated due to COVID-19. But how will we adjust to the sudden move away from traditional work environments? Daniel Scrivner believes the answer lies in asynchronous tools that allow people to get their work done without bottlenecks.
-              .button-block.white
+              a.button-block__link(href='') 
+               .button-block.white
                 .button-block__text read
                 .button-block__bootom
-                  +image_png('arrow')
+                 +image_png('arrow')
+
           .page-news__news-item
             .news-item__foto
               +image_png('news_4')
@@ -71,6 +82,7 @@
             .news-item__text
               | An emphasis on storytelling glosses over the quality that&rsquo;s even more crucial for a brand&rsquo;s content marketing to find success: personality.
             .block-project__button
+             a.button-block__link(href='')
               .button-block.blue
                 .button-block__text--b read
                 .button-block__bootom--b
