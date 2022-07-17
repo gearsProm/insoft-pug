@@ -43,6 +43,7 @@ padding: 50px 0;
 }
 .ucode-menu {
 	color: #FFFFFF;
+	padding-bottom: 18px;
 }
 .ucode-menu__menu{
 	color: #FFFFFF;
@@ -169,6 +170,8 @@ line-height: 48px;
 	&:nth-child(5) {
 		border: none;
 		background: #FF5252;
+		z-index: 20;
+      opacity: 0.8;
 		
 	}
 }
@@ -196,7 +199,7 @@ color: #8E9AA5;
 	}
 	.head-code__logo img {
 		width: 290px;
-		height: 320px;
+		height: 225px;
 	}
 
 }
