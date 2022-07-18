@@ -38,6 +38,10 @@ module.exports = {
 			template: "./src/team.pug",
 			filename: "team.html",
 		}),
+		new HtmlWebpackPlugin({
+			template: "./src/history.pug",
+			filename: "history.html",
+		}),
 	],
 
 	module: {

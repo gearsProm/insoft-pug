@@ -1,0 +1,156 @@
+.history {}
+.container {
+	@media (max-width: 500px) {
+		& {
+			padding: 16px;
+		}
+	}
+}
+.history-head {
+	margin: 100px 0 80px 0;
+	@media (max-width: 965px){
+		& {
+			margin: 80px 0;
+		}
+	}
+	@media (max-width: 765px){
+		& {
+			margin: 60px 0;
+		}
+	}
+	@media (max-width: 500px){
+		& {
+			margin: 40px 0 52px 0;
+		}
+	}
+
+	&__title{
+	font-weight: 750;
+	font-size: 60px;
+	line-height: 64px;
+	color: #282E34;
+
+	@media (max-width: 800px) {
+		& {
+			font-size: 40px;
+			line-height: 48px;
+		}
+	}
+	@media (max-width: 500px) {
+		& {
+			font-size: 32px;
+			line-height: 40px;
+		}
+	}
+}
+	&__text{
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 28px;
+	color: #8E9AA5;
+	padding-top: 20px;
+
+	@media (max-width: 800px) {
+		& {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+	@media (max-width: 500px) {
+		& {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+}
+}
+.history-table {}
+.history-table__table{}
+.table{
+	display: grid;
+	grid-template-columns: repeat(4,25%);
+}
+.history-table__rows{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 78px;
+	text-align: center;
+	color: #282E34;
+	border-bottom: 2px solid #E3E5EE;
+	@media (max-width: 800px) {
+		& {
+			font-size: 16px;
+		}
+	}
+
+	@media (max-width: 550px) {
+		& {
+			font-size: 12px;
+		}
+	}
+
+}
+.history-table__rows--head{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	font-weight: 750;
+	font-size: 12px;
+	line-height: 60px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #8E9AA5;
+	background: #F4F5F9;
+	height: 60px;
+
+	@media (max-width: 720px) {
+		& span {
+			display: none;
+		}
+	}
+}
+.history-table__rows-data{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	margin: 0 auto;
+}
+.history-table__rows-company {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	margin: 0 auto;
+	display: flex;
+	align-items:center;
+}
+.history-table__logo{
+	position: relative;
+	height: 100%;
+}
+.history-table__rows-company img {
+	width: 100%;
+
+}
+.history-table__rows-equity {
+	grid-column-start: 3;
+	grid-column-end: 4;
+	margin: 0 auto;
+}
+.history-table__rows-transaction{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	margin: 0 auto;
+}
+.history-table__value {
+
+}  
+.green {
+	color: #38A362;
+}
+.red {
+	color: #FF5252;
+}            
+.history-button{
+	margin: 20px auto 40px auto;
+	display: flex;
+	justify-content:center;
+}
