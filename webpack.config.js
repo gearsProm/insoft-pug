@@ -42,6 +42,14 @@ module.exports = {
 			template: "./src/history.pug",
 			filename: "history.html",
 		}),
+		new HtmlWebpackPlugin({
+			template: "./src/blog.pug",
+			filename: "blog.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/arcticle.pug",
+			filename: "arcticle.html",
+		}),
 	],
 
 	module: {

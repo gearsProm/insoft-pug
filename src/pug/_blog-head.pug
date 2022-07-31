@@ -1,14 +1,33 @@
 .page__page-news
       .container
-        .page-news__title
-          | Recent news from InSoft Partners
-          .page-news__text--p 
-             | Updates on our ongoing projects and fresh indusry insights
-             a.button-block__link(href='') 
+        
+        .page-news__support
+          .page-news__support-support
+            +image_png('news54')
+            .page-news__support-content
+              .page-news__support-topicality
+               
+
+          .page-news__news-item
+            .news-item__foto
+             
+            .news-item__topicality
+              .news-item__tema scale by insoft
+              .news-item__team ~ 5 min read
+            .news-item__title Flow’s Daniel Scrivner on the brave new world of asynchronous productivity tools
+            .news-item__text
+              | Long-term trends around distributed working have been dramatically accelerated due to COVID-19. But how will we adjust to the sudden move away from traditional work environments? Daniel Scrivner believes the answer lies in asynchronous tools that allow people to get their work done without bottlenecks.
+            .block-project__button
+             a.button-block__link(href='')
               .button-block.blue
-                .button-block__text--b all articles
+                .button-block__text--b read
                 .button-block__bootom--b
-                 +image_png('arrowb')
+                  +image_png('arrowb')
+
+        .page-news__title
+          | Latest news
+          .page-news__text--p 
+             
         .page-news__news
           .page-news__news-item
             .news-item__foto

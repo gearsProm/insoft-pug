@@ -84,6 +84,7 @@
 		display: flex;
 		align-items:flex-end;
 		margin: 40px 0;
+		justify-content:center;
 		// .button-block__text
 
 		&__text--g {
@@ -262,15 +263,14 @@
 .page-row__logo {
 	display: inline-block;
 	z-index: 50;
-	color: #FF5252;
-	transform: rotate(-90deg);
-	line-height: 106px;
-	font-size: 106px;
-	font-weight: 900;
+
+
 	position: absolute;
-    top: 35%;
-    left: -150px;
+   top: 20%;
+   left: -54px;
+	 
 }
+
 .page-row {
 
 	// .page-row__colum-img2
@@ -708,7 +708,7 @@ color: #8E9AA5;
 	.block-project__detail {
 		grid-column-start: 1;
 		grid-column-end: 3;
-		grid-template-columns: repeat(4,auto);
+		grid-template-columns: repeat(4,auto) 1fr;
 		padding: 23px 0 23px 0;
 		border-top: 2px solid #E3E5EE;
 		border-bottom: 2px solid #E3E5EE;
@@ -927,7 +927,7 @@ line-height: 24px;
 }
 /*----------------------*/
 .page__page-news {
-	margin: 100px 0;
+	margin: 80px 0;
 }
 .page-news__title {
 	font-weight: 750;
@@ -1029,9 +1029,21 @@ padding-bottom: 16px;
 	margin-top: 40px;
 }
 .page-news__support-support {
-background-image: url('../images/54.jpeg');
+//	background-image: url('../images/54.jpeg');
+//	background-repeat: no-repeat;
 	color: #FFFFFF;
 	margin-right: 35px;
+	position: relative;
+	padding-bottom: 40px;
+	border-bottom: 2px solid #E3E5EE;
+	img {
+		object-fit: cover;
+    height: 100%;
+    width: 100%;
+	}
+	
+
+
 }
 @media (max-width: 961px) {
 	.page-news__support-support {
@@ -1041,6 +1053,8 @@ background-image: url('../images/54.jpeg');
 }
 .page-news__support-content {
 	padding: 90px 90px 0 70px;
+	position: absolute;
+   top: 0;
 }
 @media (max-width: 961px) {
 	.page-news__support-content {
@@ -1643,6 +1657,7 @@ color: #FFFFFF;
 @media (max-width: 1361px) {
 	.block-project__detail-block {
 		margin-bottom: 0;
+		padding: 0 60px 0 0;
 }
 	.structure-block {
 		padding: 40px;
@@ -2018,6 +2033,10 @@ font-weight: 450;
 		position: absolute;
 		top: 13px;
 	}
+}
+.button-block__bootom img {
+	width: auto;
+	height: auto;
 }
 //.structure-block__mini--line span {
 //	width: 2px;
