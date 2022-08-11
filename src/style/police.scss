@@ -1,0 +1,116 @@
+
+.police-head {
+	font-weight: 750;
+	font-size: 60px;
+	line-height: 64px;
+	color: #282E34;
+	margin: 100px 0 80px 0;
+}
+.police-block__list {
+	font-size: 20px;
+	line-height: 28px;
+	color: #282E34;
+	margin-bottom: 32px;
+}
+.police-block__link {
+	font-size: 16px;
+	line-height: 24px;
+	color: #8E9AA5;
+	padding: 16px 0 0 20px;
+	&:last-child{
+		padding-bottom: 0px;
+	}
+}
+.police-block__content-head{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	@media (max-width:700px) {
+		display: block;
+	}
+}
+.police-block {
+	display: grid;
+	grid-template-columns: 320px 1fr;
+	@media (max-width:1000px) {
+		display: block;
+	}
+	&__menu {
+		.police-block__list {
+			font-size: 20px;
+			line-height: 28px;
+			color: #282E34;
+		}
+		.police-block__link {
+			font-size: 16px;
+			line-height: 24px;
+			color: #8E9AA5;
+		}
+		@media (max-width:1000px) {
+			display: none;
+		}
+	}
+	&__content {
+		margin-bottom: 100px;
+		max-width: 800px;
+		margin-left: 40px;
+		@media (max-width:700px) {
+			padding-right: 0px;
+			margin-left: 0;
+		}
+	}
+	&__content-title {
+		font-weight: 750;
+		font-size: 32px;
+		line-height: 40px;
+		color: #282E34;
+	}
+	&__content-data {
+		font-weight: 450;
+		font-size: 16px;
+		line-height: 24px;
+		color: #8E9AA5;
+		margin: 12px 0 0px 0;
+	}
+	&__content-bold {
+		font-size: 30px;
+		line-height: 36px;
+		color: #282E34;
+		font-weight: 750;
+		padding-top: 35px;
+	}
+	&__content-text{
+			font-size: 16px;
+			line-height: 24px;
+			color: #282E34;
+			padding-right: 100px;
+		p {
+			padding: 20px 0 0 0; 
+		}
+		@media (max-width:700px) {
+			padding-right: 0px;
+		}
+	}
+}
+.police-block__content-link{}
+.police-block__content-print{
+	font-weight: 750;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #8E9AA5;
+	border-bottom: 4px solid #8E9AA5;
+	display: inline-block;
+	&:hover {
+		color: #292b2e;
+		border-bottom: 4px solid #292b2e;
+		transition: 1s;
+	}
+	@media (max-width:700px) {
+		padding-top: 20px;
+	}
+}
+
+
+

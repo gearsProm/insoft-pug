@@ -1,0 +1,154 @@
+.arcticle {}
+.container 	{}
+.arcticle-bg {
+	img {
+		width: 100%;
+	}
+}
+.arcticle-block {
+&__head {
+	max-width: 920px;
+	margin: 0 auto;
+}
+&__head-text {
+	font-weight: 750;
+	font-size: 40px;
+	line-height: 48px;
+	color: #282E34;
+	p {
+	font-weight: 450;
+	font-size: 20px;
+	line-height: 28px;
+	color: #8E9AA5;
+	padding: 16px 0 40px 0;
+	border-bottom: 2px solid #E3E5EE;
+	span {
+		color: red;
+	}
+}
+}
+&__important {
+	display: grid;
+	grid-template-columns: 1fr 920px 1fr;
+	@media(max-width:1250px) {
+	//	grid-template-columns: 1fr auto ;
+	display: block;
+	}
+	@media(max-width:500px) {
+		display: block;
+	}
+
+
+
+
+
+}
+&__important-img {
+	img {
+		margin: 100px 0 0 0;
+		@media(max-width:1250px) {
+			margin: 100px 20px 0 0;
+		}
+		@media(max-width:965px) {
+			width: 54px;
+			height: 54px;
+			margin: 150px 20px 0 0;
+		}
+		@media(max-width:765px) {
+			width: 48px;
+			height: 48px;
+			margin: 200px 20px 0 0;
+		}
+		@media(max-width:500px) {
+			width: 40px;
+			height: 40px;
+			margin:  20px 0;
+		}
+	}
+}
+&__important-text {
+	font-weight: 750;
+	font-size: 24px;
+	line-height: 32px;
+	color: #282E34;
+	padding: 0px 0 40px 0;
+	border-bottom: 2px solid #E3E5EE;
+	p {
+		padding-top: 20px;
+	}
+}
+&__list {
+	padding: 40px 0 40px 0;
+	border-bottom: 2px solid #E3E5EE;
+}
+&__list-head {
+	font-weight: 750;
+	font-size: 32px;
+	line-height: 40px;
+	color: #282E34;
+}
+&__list-text {
+	font-size: 20px;
+	line-height: 28px;
+	color: #282E34;
+
+	p {
+		padding: 20px 0 0 0;
+	}
+}
+&__information {}
+&__information-text {}
+&__information-media {
+	padding: 40px 0 20px 0;
+
+}
+&__list-subtext {
+	font-size: 16px;
+	line-height: 24px;
+	color: #8E9AA5;
+}
+&__list-media {
+	padding: 40px 0;
+}
+	&__support {
+		
+	}
+}
+
+.arcticle-support {
+	background: (url(/src/images/arcticle-6.png));
+
+&__topicality{
+
+}
+}
+.arcticle-news {
+	margin: 100px 0;
+}
+.page-news__support-arcticle {
+		padding: 90px 90px 0 70px;
+		position: absolute;
+		top: 0;
+		
+}
+.arcticle-block__bg{
+	position: relative;
+	img {
+		width: 100%;
+	}
+}
+.arcticle-block__support {
+	top: 0;
+	width: 100%;
+	
+	position: absolute;
+}
+.arcticle-block__support-container {
+	margin: 0 auto;
+	max-width: 920px;
+	color: white;
+}
+.arcticle-block__support-content{
+	max-width: 580px;
+	padding: 20px 0;
+}

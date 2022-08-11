@@ -263,14 +263,22 @@
 .page-row__logo {
 	display: inline-block;
 	z-index: 50;
-
-
+	& img {
+		height: 100%;
+	}
 	position: absolute;
    top: 20%;
    left: -54px;
-	 
+
 }
 
+ @media (max-width: 550px) {
+	.page-row__logo  {
+		height: 276px;
+		top: 13%;
+		left: -39px;
+			}
+		}	
 .page-row {
 
 	// .page-row__colum-img2
@@ -1082,6 +1090,7 @@ padding-bottom: 16px;
 		line-height: 32px;
 }
 }
+
 .page-news__support-text {
 	font-weight: 450;
 	font-size: 16px;

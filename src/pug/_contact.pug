@@ -1,0 +1,33 @@
+.contact 
+	.container 
+		.contact-title We will find the best solution to your problem
+		.contact-block 
+			.contact-block__contact 
+				.contact-block__title Contact
+					.contact-block__border
+				.contact-block__address address
+					p Peremohy Ave, 5А, Kyiv, Ukraine
+				.contact-block__address email
+					p hello@insoft.partners
+
+			.contact-block__submit
+				.contact-block__title Submit your application
+					.contact-block__border
+				p Leave your contacts and write a few words about your idea. All fields are required.
+				form(action="#" method="post" enctype="multipart/form-data") 
+					input.forms(placeholder='Name', tabindex='1', name='username', type='text')
+					input.forms(placeholder='Email', tabindex='1', name='username', type='email')
+					input.forms(placeholder='Text', tabindex='1', name='username', type='text')
+				.contact-block__attach 
+					+image_svg('sliver')
+					p Attach file. <span>  Maximum file size 24 Mb
+				.contact-block__button 
+					a.button-block__link(href='') 	
+						.button-block.red
+							.button-block__text--red send				
+							.button-block__bootom--red
+								+image_png('arrowb')
+					.contact-block__send By clicking on the "Send" button you agree <span> to the privacy policy.
+	
+
+

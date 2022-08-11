@@ -50,6 +50,26 @@ module.exports = {
 			template: "./src/arcticle.pug",
 			filename: "arcticle.html",
 		}),
+		new HtmlWebpackPlugin({
+			template: "./src/contact.pug",
+			filename: "contact.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/police.pug",
+			filename: "police.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/careers.pug",
+			filename: "careers.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/location.pug",
+			filename: "location.html",
+		}),
+		new HtmlWebpackPlugin({
+			template: "./src/internal.pug",
+			filename: "internal.html",
+		}),
 	],
 
 	module: {
